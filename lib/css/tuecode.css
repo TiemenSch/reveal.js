@@ -1,0 +1,86 @@
+/*
+
+TUe syntax  highlighting style by Tiemen Schuijbroek inspired by 
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+warmred 			247, 49, 49
+cyan 				0, 162, 222
+pms206 	royalpurple 214, 9, 74
+pms300 	brightblue 	0, 102, 204
+pms226 	pink		214, 0, 123
+pms253 	purple		173, 32, 173
+pms2748	darkblue 	16, 16, 115
+pms137	orange 		255, 154, 0
+pms012	yellow		255, 221, 0
+pms396	lime		206, 223, 0
+pms375	green		132, 210, 0
+pmsgrn	teal		0, 172, 130
+pms3135	seablue		0, 146, 181
+tueblue: 			54, 50, 127
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: #222;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-variable {
+  color: #008000;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: rgb(0, 102, 204) /*brightblue, Visual Studio: #00f;*/
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  color: rgb(214, 9, 74)/*royalpurple, Visual Studio: #a31515;*/
+}
+
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta {
+  color: rgb(0, 146, 181)/*seablue Visual Studio: #2b91af;*/
+}
+
+.hljs-doctag {
+  color: #808080;
+}
+
+.hljs-attr,
+.hljs-number {
+  color: rgb(247, 49, 49)/*warmred, Visual Studio: #f00;*/
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: rgb(0, 162, 222)/*cyan, Visual Studio: #00b0e8;*/
+}
+
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}

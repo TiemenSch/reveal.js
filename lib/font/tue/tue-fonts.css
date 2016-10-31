@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'TUE Meta';
+    src: url('zmbr8a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TUE Meta';
+    src: url('zmbb8a.ttf') format('truetype');
+    font-weight: 600;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'TUE Meta';
+    src: url('zmwr8a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: wide;
+}
+
+@font-face {
+    font-family: 'TUE Scala';
+    src: url('zdcb8a.ttf') format('truetype');
+    font-weight: 600;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'TUE Scala';
+    src: url('zdcr8a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TUE Logos VL';
+	src: url('zlor8a.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'TUE Logos VL';
+	src: url('zlob8a.ttf') format('truetype');
+	font-weight: 600;
+	font-style: bold;
+}

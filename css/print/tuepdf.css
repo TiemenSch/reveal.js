@@ -1,0 +1,5 @@
+@import url('pdf.css');
+
+.reveal .slide-menu-button{
+	display: none !important;
+}
