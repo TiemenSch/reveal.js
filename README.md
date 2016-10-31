@@ -2,7 +2,7 @@
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
 
-reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [Markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). There's also a fully featured visual editor and platform for sharing reveal.js presentations at [slides.com](https://slides.com?ref=github).
+reveal.js comes with a broad range of features including [nested slides](https://github.com/TiemenSch/tue-reveal.js#markup), [Markdown contents](https://github.com/TiemenSch/tue-reveal.js#markdown), [PDF export](https://github.com/TiemenSch/tue-reveal.js#pdf-export), [speaker notes](https://github.com/TiemenSch/tue-reveal.js#speaker-notes) and a [JavaScript API](https://github.com/TiemenSch/tue-reveal.js#api). There's also a fully featured visual editor and platform for sharing reveal.js presentations at [slides.com](https://slides.com?ref=github).
 
 ## Table of contents
 - [Online Editor](#online-editor)
@@ -53,10 +53,10 @@ reveal.js comes with a broad range of features including [nested slides](https:/
 - [License](#license)
 
 #### More reading
-- [Changelog](https://github.com/hakimel/reveal.js/releases): Up-to-date version history.
-- [Examples](https://github.com/hakimel/reveal.js/wiki/Example-Presentations): Presentations created with reveal.js, add your own!
-- [Browser Support](https://github.com/hakimel/reveal.js/wiki/Browser-Support): Explanation of browser support and fallbacks.
-- [Plugins](https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware): A list of plugins that can be used to extend reveal.js.
+- [Changelog](https://github.com/TiemenSch/tue-reveal.js/releases): Up-to-date version history.
+- [Examples](https://github.com/TiemenSch/tue-reveal.js/wiki/Example-Presentations): Presentations created with reveal.js, add your own!
+- [Browser Support](https://github.com/TiemenSch/tue-reveal.js/wiki/Browser-Support): Explanation of browser support and fallbacks.
+- [Plugins](https://github.com/TiemenSch/tue-reveal.js/wiki/Plugins,-Tools-and-Hardware): A list of plugins that can be used to extend reveal.js.
 
 ## Online Editor
 
@@ -485,7 +485,7 @@ Reveal.isAutoSliding();
 
 A 'slidechanged' event is fired each time the slide is changed (regardless of state). The event object holds the index values of the current slide as well as a reference to the previous and current slide HTML nodes.
 
-Some libraries, like MathJax (see [#226](https://github.com/hakimel/reveal.js/issues/226#issuecomment-10261609)), get confused by the transforms and display states of slides. Often times, this can be fixed by calling their update or render function from this callback.
+Some libraries, like MathJax (see [#226](https://github.com/TiemenSch/tue-reveal.js/issues/226#issuecomment-10261609)), get confused by the transforms and display states of slides. Often times, this can be fixed by calling their update or render function from this callback.
 
 ```javascript
 Reveal.addEventListener( 'slidechanged', function( event ) {
@@ -829,7 +829,7 @@ Reveal.initialize({
 Presentations can be exported to PDF via a special print stylesheet. This feature requires that you use [Google Chrome](http://google.com/chrome) or [Chromium](https://www.chromium.org/Home).
 Here's an example of an exported presentation that's been uploaded to SlideShare: http://www.slideshare.net/hakimel/revealjs-300.
 
-1. Open your presentation with `print-pdf` included anywhere in the query string. This triggers the default index HTML to load the PDF print stylesheet ([css/print/pdf.css](https://github.com/hakimel/reveal.js/blob/master/css/print/pdf.css)). You can test this with [lab.hakim.se/reveal-js?print-pdf](http://lab.hakim.se/reveal-js?print-pdf).
+1. Open your presentation with `print-pdf` included anywhere in the query string. This triggers the default index HTML to load the PDF print stylesheet ([css/print/pdf.css](https://github.com/TiemenSch/tue-reveal.js/blob/master/css/print/pdf.css)). You can test this with [lab.hakim.se/reveal-js?print-pdf](http://lab.hakim.se/reveal-js?print-pdf).
 2. Open the in-browser print dialog (CTRL/CMD+P).
 3. Change the **Destination** setting to **Save as PDF**.
 4. Change the **Layout** to **Landscape**.
@@ -861,7 +861,7 @@ Each theme is available as a separate stylesheet. To change theme you will need 
 <link rel="stylesheet" href="css/theme/black.css" id="theme">
 ```
 
-If you want to add a theme of your own see the instructions here: [/css/theme/README.md](https://github.com/hakimel/reveal.js/blob/master/css/theme/README.md).
+If you want to add a theme of your own see the instructions here: [/css/theme/README.md](https://github.com/TiemenSch/tue-reveal.js/blob/master/css/theme/README.md).
 
 
 ## Speaker Notes
@@ -902,7 +902,7 @@ This will only display in the notes window.
 
 Notes are only visible to the speaker inside of the speaker view. If you wish to share your notes with others you can initialize reveal.js with the `showNotes` config value set to `true`. Notes will appear along the bottom of the presentations.
 
-When `showNotes` is enabled notes are also included when you [export to PDF](https://github.com/hakimel/reveal.js#pdf-export).
+When `showNotes` is enabled notes are also included when you [export to PDF](https://github.com/TiemenSch/tue-reveal.js#pdf-export).
 
 ## Server Side Speaker Notes
 
@@ -1096,7 +1096,7 @@ The **basic setup** is for authoring presentations only. The **full setup** give
 
 The core of reveal.js is very easy to install. You'll simply need to download a copy of this repository and open the index.html file directly in your browser.
 
-1. Download the latest version of reveal.js from <https://github.com/hakimel/reveal.js/releases>
+1. Download the latest version of reveal.js from <https://github.com/TiemenSch/tue-reveal.js/releases>
 
 2. Unzip and replace the example contents in index.html with your own
 
@@ -1111,7 +1111,7 @@ Some reveal.js features, like external Markdown and speaker notes, require that 
 
 1. Clone the reveal.js repository
    ```sh
-   $ git clone https://github.com/hakimel/reveal.js.git
+   $ git clone https://github.com/TiemenSch/tue-reveal.js.git
    ```
 
 1. Navigate to the reveal.js folder
