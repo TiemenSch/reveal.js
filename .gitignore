@@ -1,13 +1,20 @@
+<<<<<<< HEAD
 .idea/
 *.iml
 *.iws
 *.eml
 out/
+=======
+>>>>>>> 2658105b1d8b61e64a54701f8b1632f7fb5b8866
 .DS_Store
 .svn
 log/*.log
 tmp/**
 node_modules/
+<<<<<<< HEAD
 .sass-cache
 css/reveal.min.css
 js/reveal.min.js
+=======
+.sass-cache
+>>>>>>> 2658105b1d8b61e64a54701f8b1632f7fb5b8866
