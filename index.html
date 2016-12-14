@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="css/reveal.css">                       <!-- Default Reveal.JS styling -->
         <link rel="stylesheet" href="css/theme/tue.css" id="theme">         <!-- Custom TU/e theme -->
         <link rel="stylesheet" href="lib/css/tuecode.css">                  <!-- Theme used for syntax highlighting of code -->
-        <link rel="stylesheet" href="plugin/title-footer/title-footer.css"> <!-- Footer css (overridden by tue.css) -->
+        <!--<link rel="stylesheet" href="plugin/title-footer/title-footer.css"> <!-- Footer css (overridden by tue.css) -->
 
         <!-- Printing and PDF exports handled here -->
         <script>
@@ -49,12 +49,15 @@
                      data-separator-notes="^Note:"  
                      data-charset="iso-8859-15">
             </section>
-            <section class="title-slide">
+            <section>
                 <h1>TU/e Presentation Template</h1>
 				<h3>reveal.js presentation framework demo</h3>
 				<p>
 					<small>Created by Tiemen Schuijbroek</small>
 				</p>
+                <aside class="notes">
+                    Some speaker notes
+                </aside>
             </section>
             </div>
         </div>
@@ -110,7 +113,12 @@
                     // Specify custom panels to be included in the menu, by
                     // providing an array of objects with 'title', 'icon'
                     // properties, and either a 'src' or 'content' property.
-                    custom: false,
+                    custom: [
+                        { title: 'Print/PDF', icon: '<i class="fa fa-print">', content:
+                        '<ul class="slide-menu-items"><li class="slide-menu-item"><p>You can generate a printable page using the link below. Print that to PDF or directly to your printer for full A4 page slides.</p></li><li class="slide-menu-item"><a href="?print-pdf" target="_blank">Printable webpage</a></li></ul>'
+                        <!--''--> 
+                        }
+                    ],
 
                     // Specifies the themes that will be available in the themes
                     // menu panel. Set to 'false' to hide themes panel.
